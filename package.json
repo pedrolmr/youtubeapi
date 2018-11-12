@@ -1,12 +1,12 @@
 {
-  "name": "youtubeapi",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1",
-    "youtube-api-search": "^0.0.5"
+    "youtube-api-search": "0.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,8 +22,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "dotenv": "^6.1.0"
-  }
+  ]
 }
