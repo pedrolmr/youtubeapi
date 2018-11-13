@@ -9,9 +9,11 @@ class SearchBar extends Component {
         }
     }
 
-    changeHandler = event => { 
+    changeHandler = (event) => { 
         this.setState({[event.target.name]: event.target.value});
+        this.props.handlerSearch(event.target.value)
     }
+
     render(){
         return (
             <div>
